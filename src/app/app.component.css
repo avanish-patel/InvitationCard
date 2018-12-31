@@ -1,0 +1,40 @@
+h1,h2{
+    font-family: "Raleway", sans-serif
+}
+p {
+    line-height: 2
+}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {
+    background-image: url("../assets/baby_shower.jpg");
+    
+}
+.bgimg2 {
+    background-image: url("../assets/babies.jpg");
+}
+
+.input-field {
+    margin: 20px;
+}
+
+.font-header {
+    /* font-family: 'Indie Flower', cursive; */
+    color: white;
+/* font-family: 'Gochi Hand', cursive; */
+font-family: 'Kalam', cursive;
+/* font-family: 'Marck Script', cursive; */
+/* font-family: 'Averia Sans Libre', cursive; */
+}
+
+.section2 {
+    background-color : #a777e6;
+}
+
+.section3 {
+    background-color: #e989bb;
+}
+
