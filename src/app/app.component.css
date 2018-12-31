@@ -38,3 +38,18 @@ font-family: 'Kalam', cursive;
     background-color: #e989bb;
 }
 
+
+.parallax {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section-parallax {
+    padding-bottom: 400px;
+    padding-top: 300px;
+}
+
