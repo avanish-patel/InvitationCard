@@ -36,8 +36,8 @@ sr.reveal('.text-slide', {
 });
 sr.reveal('.btn-slide', {
   duration: 1000,
-  origin: 'bottom',
-  distance: '300px'
+  delay:1000,
+  origin: 'bottom'
 });
 sr.reveal('.right-slide', {
   duration: 1000,
@@ -49,11 +49,26 @@ sr.reveal('.left-slide', {
   origin: 'left',
   distance: '300px'
 });
-// sr.reveal('.less-slide', {
-//   duration: 1000,
-//   origin: 'top',
-//   distance: '500px'
-// });
+sr.reveal('.reveal1', {
+  duration: 1000,
+  origin: 'bottom',
+  delay:1000
+});
+sr.reveal('.reveal2', {
+  duration: 1500,
+  origin: 'bottom',
+  delay:1000
+});
+sr.reveal('.reveal3', {
+  duration: 2000,
+  origin: 'bottom',
+  delay:1000
+});
+sr.reveal('.top-slide', {
+  duration: 2000,
+  origin: 'top',
+  distance: '300px'
+});
 
 </script>
 </html>
