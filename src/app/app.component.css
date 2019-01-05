@@ -23,7 +23,6 @@ p {
 
 .font-header {
     /* font-family: 'Indie Flower', cursive; */
-    color: white;
 /* font-family: 'Gochi Hand', cursive; */
 font-family: 'Kalam', cursive;
 /* font-family: 'Marck Script', cursive; */
@@ -31,11 +30,11 @@ font-family: 'Kalam', cursive;
 }
 
 .section2 {
-    background-color : #eeeeee;
+    background-color : #ffddfc;
 }
 
 .section3 {
-    background-color: #ffffff;
+    background-color: #ddddff;
 }
 
 .parallax {
