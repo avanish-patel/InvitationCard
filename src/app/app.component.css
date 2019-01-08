@@ -88,8 +88,8 @@ font-family: 'Dosis', sans-serif;
     color:#ddd;
   }
   
-  .ptext{
-    position:absolute;
+  .ptext::before{
+    position: fixed;
     top:50%;
     width:100%;
     text-align:center;
