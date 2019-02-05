@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from './http.service';
+import { RSVP } from './rsvp';
 
 @Component({
   selector: 'app-root',
@@ -6,9 +8,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+
+  private rsvp: RSVP;
+
+  constructor(private httpService: HttpService) {
+
+  }
 
   ngOnInit(): void {
+  }
 
+  submitFormComming(name, number) {
+    this.rsvp = new RSVP(name.value, number.value, true);
+    this.httpService.submitForm(this.rsvp);
+    document.getElementById('id01').style.display='none';
+  }
+
+  submitFormNotComming(name, number){
+    this.rsvp = new RSVP(name.value, number.value, false);
+    this.httpService.submitForm(this.rsvp);
+    document.getElementById('id01').style.display='none';
   }
 }

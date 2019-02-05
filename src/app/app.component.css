@@ -146,6 +146,10 @@ font-family: 'Dosis', sans-serif;
             padding: 0px;
             margin: 0px;
         }
+        .pimg3{
+            background-image:url('../assets/image3-desktop.jpg');
+            min-height:100%;
+          }
   }
   
   /* apply style if width is less than 400px */
@@ -183,5 +187,10 @@ font-family: 'Dosis', sans-serif;
 
   a {
       text-decoration: none;
+  }
+
+
+  .end-button {
+      margin: 10px;
   }
   
