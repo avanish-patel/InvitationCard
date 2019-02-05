@@ -171,6 +171,7 @@
 
   .end-button {
       margin: 10px;
+      background-color: #393ffb !important;
   }
 
   .input-field {
@@ -178,4 +179,7 @@
       margin-bottom: 10px;
   }
 
+  #rsvp {
+      background-color: #f4f4f4 !important;
+  }
   
