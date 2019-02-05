@@ -19,14 +19,23 @@ export class AppComponent implements OnInit {
   }
 
   submitFormComming(name, number) {
-    this.rsvp = new RSVP(name.value, number.value, true);
-    this.httpService.submitForm(this.rsvp);
-    document.getElementById('id01').style.display='none';
+    if (name.value !== "" && number.value !== "") {
+      this.rsvp = new RSVP(name.value, number.value, true);
+      this.httpService.submitForm(this.rsvp);
+      document.getElementById('id01').style.display = 'none';
+    } else {
+      document.getElementById('id01').style.display = 'none';
+
+    }
   }
 
-  submitFormNotComming(name, number){
+  submitFormNotComming(name, number) {
+    if(name.value !== "" && number.value !== ""){
     this.rsvp = new RSVP(name.value, number.value, false);
     this.httpService.submitForm(this.rsvp);
-    document.getElementById('id01').style.display='none';
+    document.getElementById('id01').style.display = 'none';
+    }else {
+      document.getElementById('id01').style.display = 'none';
+    }
   }
 }
