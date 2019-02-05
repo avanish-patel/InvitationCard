@@ -88,10 +88,6 @@
       font-weight: 900;
   }
 
-  input {
-      margin: 20px;
-  }
-
 
 
   /* apply style if width is more than 800px */
@@ -108,6 +104,11 @@
             background-image:url('../assets/image3-desktop.jpg');
             min-height:100%;
           }
+
+          .end-button {
+            margin: 10px;
+            width: 200px !important;
+        }
   }
   
   /* apply style if width is less than 400px */
@@ -165,6 +166,11 @@
 
   .end-button {
       margin: 10px;
+  }
+
+  .input-field {
+      margin: 0px;
+      margin-bottom: 10px;
   }
 
   
