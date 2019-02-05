@@ -85,7 +85,6 @@
 
   .title {
       font-size: 60px;
-      font-weight: 900;
   }
 
 
@@ -108,6 +107,10 @@
           .end-button {
             margin: 10px;
             width: 200px !important;
+        }
+
+        .title {
+            font-weight: 900;
         }
   }
   
