@@ -168,9 +168,14 @@ font-family: 'Dosis', sans-serif;
             padding-top: 25px;
         }
 
-        .pimg1, .pimg2, .pimg3{
-            background-attachment: scroll;
-        }
+        
+  }
+
+  @media (max-width: 480px){
+
+      .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll !important;
+    }
   }
 /* apply style if width is between 340 and 800 */
   @media screen and (max-width: 800px) and (min-width: 361px) {
