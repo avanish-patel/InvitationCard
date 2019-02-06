@@ -164,22 +164,25 @@
     }
   }
 
-  a {
+a {
       text-decoration: none;
-  }
+}
 
 
-  .end-button {
-      margin: 10px;
-      background-color: #393ffb !important;
-  }
+.end-button {
+    margin: 10px;
+}
+    
+.end-button-rsvp {
+    background-color: #393ffb !important;
+}
 
-  .input-field {
-      margin: 0px;
-      margin-bottom: 10px;
-  }
+.input-field {
+    margin: 0px;
+    margin-bottom: 10px;
+}
 
-  #rsvp {
-      background-color: #f4f4f4 !important;
-  }
+#rsvp {
+    background-color: #f4f4f4 !important;
+}
   
