@@ -160,11 +160,18 @@
 
     .center-width-button{
         margin:0px;
-        padding-top: 40px;
+        padding-top: 10%;
+        padding-bottom: 20%;
     }
-    
+
+    .pimg1 {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
     .title {
-        font-weight: 900;
+        margin-top: 10%;
+        margin-bottom:5%;
     }
   }
 
